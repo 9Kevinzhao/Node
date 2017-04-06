@@ -4,26 +4,40 @@ body{
 header{
     padding-left: 50px;
 }
-div{
-    height:300px;
-    width:700px;
-    background-color: green;
-}
+
 div img{
-    width:80%;
-    height:0 auto;
+    width:inherit ;
+    height: inherit ;
+
 }
 div.pictures{
-  border:5px solid black;
+    height:200px;
+    width:auto;
+  border:20px solid white;
   background-color: white;
 }
 div.pictures2{
-  border: 5px solid black;
-  background-color: green;
+    height:200px;
+    width:auto;
+  border:20px solid green;
+  background-color: white;
 }
-.main{
+div.main{
+    height: 700px;
+    width: auto;
+    text-align: center;
   border: 5px solid orange;
-  background-color: yellow;
+  background-color: white;
+}
+div div{
+    background-color: yellow
+    height: 100px;
+    width: 200px;
+    float: left;
+    margin-top: 400px;
+    margin-bottom: 200px;
+    margin-left:auto;
+    margin-right: auto;
 }
 .main2{
   border: 5px solid orange;
