@@ -3,15 +3,23 @@ body{
 }
 header{
     padding-left: 50px;
+    height: 200px;
+    width:auto;
+    background-color: black;
 }
+header>div>img{
+    height: 100px;
+    width: inherit;
+    margin-left: 300px;
 
+}
 div img{
     width:inherit ;
     height: inherit ;
 
 }
 div.pictures{
-    height:200px;
+    height:240px;
     width:auto;
   border:20px solid white;
   background-color: white;
@@ -23,6 +31,7 @@ div.pictures2{
   background-color: white;
 }
 div.main{
+    text-decoration-color: blue;
     height: 700px;
     width: auto;
     text-align: center;
