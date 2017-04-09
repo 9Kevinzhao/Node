@@ -3,9 +3,15 @@ body{
 }
 header{
     padding-left: 50px;
-    height: 200px;
+    height: 150px;
     width:auto;
-    background-color: black;
+    background-color: #3a3333;
+}
+nav{
+    color: white;
+    width: 700px;
+    margin: 0 auto;
+
 }
 header>div>img{
     height: 100px;
@@ -37,6 +43,10 @@ div.main{
     text-align: center;
   background-color: white;
 }
+div.text1{
+    width: 900px;
+    margin: 0 auto;
+}
 div.square1{
     background-color: green;
     height: 100px;
@@ -53,8 +63,15 @@ div.square2{
     text-align: center;
     color:white;
 }
+div.text2{
+    widows: 700px;
+text-align: center;
+}
 .main2{
   border: 5px solid orange;
   background-color.opacity: 0.6;
 }
-
+footer{
+    background-color: #3a3333;
+    color: white;
+}
