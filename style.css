@@ -13,42 +13,48 @@ header>div>img{
     margin-left: 300px;
 
 }
-div img{
-    width:inherit ;
-    height: inherit ;
-
-}
 div.pictures{
-    height:240px;
-    width:auto;
+    height:auto;
+    width:inherit;
   border:20px solid white;
   background-color: white;
 }
+body>div>img{
+    width:984px;
+    height: inherit ;
+
+}
 div.pictures2{
-    height:200px;
-    width:auto;
+    height:auto;
+    width:inherit;
   border:20px solid green;
   background-color: white;
 }
+
 div.main{
-    text-decoration-color: blue;
-    height: 700px;
+    height: 170px;
     width: auto;
     text-align: center;
-  border: 5px solid orange;
   background-color: white;
 }
-div div{
-    background-color: yellow
+div.square1{
+    background-color: green;
     height: 100px;
-    width: 200px;
-    float: left;
-    margin-top: 400px;
-    margin-bottom: 200px;
-    margin-left:auto;
-    margin-right: auto;
+    width: 300px;
+    margin-left: 150px;
+    text-align: center;
+    color:white;
+}
+div.square2{
+    background-color: green;
+    height: 100px;
+    width: 300px;
+    margin-right: 150px;
+    text-align: center;
+    color:white;
 }
 .main2{
   border: 5px solid orange;
   background-color.opacity: 0.6;
 }
+
