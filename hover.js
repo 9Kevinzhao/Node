@@ -1,14 +1,12 @@
 
 const doc = document;
-let firstdiv =doc.querySelector("div.pictures")
+let firstdiv =doc.querySelector("div.inside")
 firstdiv.addEventListener("mouseover",function(){
-
-        firstdiv.className="pictures2"
+        firstdiv.className="inside2";
 })
 firstdiv.addEventListener("mouseout",function(){
-    if(firstdiv.className =="pictures2"){
-        firstdiv.className="pictures"
-    }
+        firstdiv.className="inside";
+
 })
 
 let seconddiv =doc.querySelector("div.square1")

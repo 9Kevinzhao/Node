@@ -19,23 +19,36 @@ header>div>img{
     margin-left: 500px;
 
 }
-div.pictures{
-    height:auto;
-    width:inherit;
-  border:20px solid white;
-  background-color: white;
+.inside{
+    height: 250px;
+    width: inherit;
+    margin-left: 220px;
+    margin-right: 250px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
-body>div>img{
-    width:1224px;
-    height: inherit ;
+.inside2{
+    height: 250px;
+    width: inherit;
+    margin-left: 220px;
+    margin-right: 250px;
 
+    border: 10px solid green;
 }
-div.pictures2{
-    height:auto;
-    width:inherit;
-  border:20px solid green;
-  background-color: white;
+.inside>img{
+    height: auto;
+    width: inherit;
 }
+.inside2>img{
+    height: auto;
+    width: inherit;
+}
+div.background{
+    background-image: url(https://nodejs.org/static/images/interactive/background.jpg);
+    height: 280px;
+}
+
+
 
 div.main{
     height: 170px;
