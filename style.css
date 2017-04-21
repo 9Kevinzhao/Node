@@ -20,18 +20,18 @@ header>div>img{
 
 }
 .inside{
-    height: 250px;
+    height: 240px;
     width: inherit;
     margin-left: 220px;
-    margin-right: 250px;
+    margin-right: 245px;
     padding-top: 10px;
     padding-left: 10px;
 }
 .inside2{
-    height: 250px;
+    height: 240px;
     width: inherit;
     margin-left: 220px;
-    margin-right: 250px;
+    margin-right: 245px;
 
     border: 10px solid green;
 }
@@ -77,7 +77,7 @@ div.square2{
     color:white;
 }
 div.text2{
-    widows: 700px;
+    margin-top: 100px;
 text-align: center;
 }
 .main2{
